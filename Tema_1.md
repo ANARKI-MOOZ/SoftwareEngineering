@@ -49,6 +49,7 @@
 ## 2.5. Фиксация изменений
 ### Результат
 ![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_1/pic/Fiksacia.png)
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_1/pic/Fiksacia2.png)
 - ## Выводы
 Создал Commit, посмотрел историю коммитов при помощи git log
 
