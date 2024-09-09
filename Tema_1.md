@@ -25,7 +25,7 @@
 ![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_1/pic/UstanovkaGit.png)
 
 ## Выводы
-
+Установил Git на компьютер
 
 ## 2.2. Настройка
 - Текст задания
