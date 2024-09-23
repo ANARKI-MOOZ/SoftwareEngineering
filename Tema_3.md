@@ -35,7 +35,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab1.png)
 
 ### Выводы
 
@@ -55,7 +55,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab2.png)
 
 ### Выводы
 
@@ -75,7 +75,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab3.png)
 
 ### Выводы
 
@@ -97,7 +97,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab4.png)
 
 ### Выводы
 
@@ -122,7 +122,7 @@ for i in range(10):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab5.png)
 
 ### Выводы
 
@@ -144,7 +144,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab6.png)
 
 ### Выводы
 
@@ -159,7 +159,7 @@ for i in range(100, -1, -1):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab7.png)
 
 ### Выводы
 
@@ -182,7 +182,7 @@ while n < 100:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab8.png)
 
 ### Выводы
 
@@ -205,7 +205,7 @@ print(value)
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab9.png)
 
 ### Выводы
 
@@ -228,7 +228,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/lab10.png)
 
 ### Выводы
 
@@ -253,7 +253,7 @@ print(n)
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/sam1.png)
 
 ### Выводы
 
@@ -273,7 +273,7 @@ for i in range(len(string) - 1, -1, -1):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/sam2.png)
 
 ### Выводы
 
@@ -304,7 +304,7 @@ else:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/sam3.png)
 
 ### Выводы
 
@@ -342,7 +342,7 @@ print(sentence.endswith("end"))
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/sam4.png)
 
 ### Выводы
 
@@ -373,7 +373,7 @@ print(memory)
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_3/pic/sam5.png)
 
 ### Выводы
 
