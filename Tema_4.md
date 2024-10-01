@@ -33,7 +33,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab1.png)
 
 ### Выводы
 
@@ -49,7 +49,7 @@ if __name__ == ('__main__'):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab2.png)
 
 ### Выводы
 
@@ -69,7 +69,7 @@ for i in range(5):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab3.png)
 
 ### Выводы
   
@@ -93,7 +93,7 @@ print(f"\nresult={result}")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab4.png)
 
 ### Выводы
 
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab5.png)
 
 ### Выводы
 
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab6.png)
 
 ### Выводы
 
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab7.png)
 
 ### Выводы
 
@@ -172,7 +172,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab8.png)
 
 ### Выводы
 
@@ -200,7 +200,7 @@ if __name__ == '__main__':
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab9.png)
 
 ### Выводы
 
@@ -228,7 +228,7 @@ print(f"Площадь: {result}")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/lab10.png)
 
 ### Выводы
 
@@ -236,37 +236,29 @@ print(f"Площадь: {result}")
 ### Дайте подробный комментарий для кода, написанного ниже. Комментарий нужен для каждой строчки кода, нужно описать что она делает. Не забудьте, что функции комментируются по-особенному.
 
 ```python
-# Импортируем модуль datetime для работы с датой и временем.
 from datetime import datetime
-# Импортируем функцию sqrt из модуля math для вычисления квадратного корня.
 from math import sqrt
-# Определяем функцию main, которая принимает произвольное количество именованных аргументов.
+
 def main(**kwargs):
-    # Проходим по каждому ключ-значение в словаре kwargs.
     for key in kwargs.items():
-        # Вычисляем длину вектора для текущего набора координат.
         result = sqrt(key[1][0] ** 2 + key[1][1] ** 2)
-        # Выводим результат.
         print(result)
-# Проверяем, является ли текущий модуль точкой входа в программу.
-if	__name__== '__main__':
-    # Фиксируем время начала выполнения программы.
+
+if __name__ == '__main__':
     start_time = datetime.now()
-    # Вызываем функцию main с набором координат.
-    main(one=[10, 3],
-         two=[5, 4],
-         three=[15, 13],
-         four=[93, 53],
-         five=[133, 15]
+    main(
+        one=[10, 3],
+        two=[5, 4],
+        three=[15, 13],
+        four=[93, 53],
+        five=[133, 15]
     )
-# Вычисляем время, затраченное на выполнение программы.
-time_costs = datetime.now() - start_time
-# Выводим время выполнения программы.
-print(f"Время выполнения программы - {time_costs}")
+    time_costs = datetime.now() - start_time
+    print(f"Время выполнения программы - {time_costs}")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/sam1.png)
 
 ### Выводы
 
@@ -292,7 +284,7 @@ if __name__ == "__main__":
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/sam2.png)
 
 ### Выводы
   
@@ -310,7 +302,7 @@ for i in range(5):
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/sam3.png)
 
 ### Выводы
   
@@ -329,7 +321,7 @@ if __name__ == "__main__":
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/sam4.png)
 
 ### Выводы
   
@@ -341,7 +333,7 @@ if __name__ == "__main__":
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_4/pic/sam5.png)
 
 ### Выводы
 
