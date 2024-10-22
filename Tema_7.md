@@ -31,7 +31,7 @@
 ```
 ### Результат.
 
-![Меню](images/task1.png)
+![Меню]()
 
 ### Выводы
 
@@ -48,7 +48,7 @@ f.close()
 ```
 ### Результат.
 
-![Меню](images/task2.png)
+![Меню]()
 
 ### Выводы
 
@@ -65,7 +65,7 @@ f.close()
 ```
 ### Результат.
 
-![Меню](images/task3.png)
+![Меню]()
 
 ### Выводы
 
@@ -82,7 +82,7 @@ with open('input.txt') as f:
 ```
 ### Результат.
 
-![Меню](images/task4.png)
+![Меню]()
 
 ### Выводы
 
@@ -100,7 +100,7 @@ with open('input.txt') as f:
 ```
 ### Результат.
 
-![Меню](images/task5.png)
+![Меню]()
 
 ### Выводы
 
@@ -114,7 +114,7 @@ with open('input.txt') as f:
 
 ```python
 with open('input.txt', 'a+') as f:
-    f.write('\nIm additional line')
+    f.write('\nVsem PRIVET')
 
 with open('input.txt', 'r') as f:
     result = f.readlines()
@@ -122,7 +122,7 @@ with open('input.txt', 'r') as f:
 ```
 ### Результат.
 
-![Меню](images/task6.png)
+![Меню]()
 
 ### Выводы
 
@@ -142,11 +142,11 @@ lines = ['one', 'two', 'three']
 with open('input.txt', 'w') as f:
     for line in lines:
         f.write('\nCycle run ' + line)
-    print('Done!')
+    print('Delo sdelano!')
 ```
 ### Результат.
 
-![Меню](images/task7.png)
+![Меню]()
 
 ### Выводы
 
@@ -170,11 +170,11 @@ def print_docs(directory):
     print(f'Файлы: {", ".join([file for file in catalog[2]])}')
     print('-' * 48)
 
-print_docs('C:/Users/vladi/Downloads/d1')
+print_docs('C:/Users/afann/Videos/Doom Eternal')
 ```
 ### Результат.
 
-![Меню](images/task8.png)
+![Меню]()
 
 ### Выводы
 
@@ -213,7 +213,7 @@ print(longest_words('input.txt'))
 ```
 ### Результат.
 
-![Меню](images/task9.png)
+![Меню]()
 
 ### Выводы
 
@@ -244,7 +244,7 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 ```
 ### Результат.
 
-![Меню](images/task10.png)
+![Меню](
 
 ### Выводы
 
@@ -268,14 +268,14 @@ def count_words_in_file(filename):
         most_common_word = word_count.most_common(1)[0]
     return len(words), most_common_word
 
-total_words, most_common_word = count_words_in_file("article.txt")
+total_words, most_common_word = count_words_in_file("input.txt")
 print(f"Общее количество слов: {total_words}")
 print(f"Самое частое слово: '{most_common_word[0]}', количество вхождений: {most_common_word[1]}")
 ```
 ### Результат.
 
-![Меню](images/s-task1-1.png)
-![Меню](images/s-task1-2.png)
+![Меню]()
+![Меню]()
 
 ### Выводы
 
@@ -317,8 +317,8 @@ show_expenses("expenses.txt")
 ```
 ### Результат.
 
-![Меню](images/s-task2-1.png)
-![Меню](images/s-task2-2.png)
+![Меню]()
+![Меню]()
 
 ### Выводы
 
@@ -364,7 +364,7 @@ text_statistics("input.txt")
 ```
 ### Результат.
 
-![Меню](images/s-task3.png)
+![Меню]()
 
 ### Выводы
 
@@ -416,7 +416,7 @@ print("Результат:", censored_sentence)
 ```
 ### Результат.
 
-![Меню](images/s-task4.png)
+![Меню]()
 
 ### Выводы
 
@@ -432,39 +432,39 @@ print("Результат:", censored_sentence)
 ```python
 import re
 
-def analyze_sentences(filename):
+
+def analyze_words(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         text = file.read()
 
-    sentences = re.split(r'[.!?]', text)
-    sentences = [s.strip() for s in sentences if s.strip()]
+    words = re.findall(r'\b\w+\b', text)
 
-    if not sentences:
-        print("В файле нет предложений.")
+    if not words:
+        print("В файле нет слов.")
         return
 
-    num_sentences = len(sentences)
+    num_words = len(words)
 
-    longest_sentence = max(sentences, key=len)
-    shortest_sentence = min(sentences, key=len)
+    longest_word = max(words, key=len)
+    shortest_word = min(words, key=len)
 
-    print(f"Количество предложений: {num_sentences}")
-    print(f"Самое длинное предложение ({len(longest_sentence)} символов): {longest_sentence}")
-    print(f"Самое короткое предложение ({len(shortest_sentence)} символов): {shortest_sentence}")
+    print(f"Количество слов: {num_words}")
+    print(f"Самое длинное слово ({len(longest_word)} символов): {longest_word}")
+    print(f"Самое короткое слово ({len(shortest_word)} символов): {shortest_word}")
 
-analyze_sentences("input.txt")
+
+analyze_words("input.txt")
 ```
 
 ### Результат.
 
-![Меню](images/s-task5.png)
+![Меню]()
 
 ### Выводы
 
-1. `sentences = re.split(r'[.!?]', text)` Используем регулярное выражение для разделения текста на предложения
-2. `sentences = [s.strip() for s in sentences if s.strip()]` Убираем пустые строки и пробелы
-3. `longest_sentence = max(sentences, key=len)` поиск самого длинного предложения
-4. `shortest_sentence = min(sentences, key=len)` поиск самого короткого предложения
+1. `words = re.findall(r'\b\w+\b', text)` Используем регулярное выражение для разделения на слова
+2. `longest_word = max(words, key=len)` поиск самого длинного предложения
+3. `shortest_word = min(words, key=len)` поиск самого короткого предложения
 
 ## Общие выводы по теме
 Базово освоил работу с файлами в питоне
