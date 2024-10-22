@@ -31,7 +31,7 @@
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab1.png)
 
 ### Выводы
 
@@ -48,7 +48,7 @@ f.close()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab2.png)
 
 ### Выводы
 
@@ -65,7 +65,7 @@ f.close()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab3.png)
 
 ### Выводы
 
@@ -82,7 +82,7 @@ with open('input.txt') as f:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab4.png)
 
 ### Выводы
 
@@ -100,7 +100,7 @@ with open('input.txt') as f:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab5.png)
 
 ### Выводы
 
@@ -122,7 +122,7 @@ with open('input.txt', 'r') as f:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab6.png)
 
 ### Выводы
 
@@ -146,7 +146,7 @@ with open('input.txt', 'w') as f:
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab7.png)
 
 ### Выводы
 
@@ -174,7 +174,7 @@ print_docs('C:/Users/afann/Videos/Doom Eternal')
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab8.png)
 
 ### Выводы
 
@@ -213,7 +213,7 @@ print(longest_words('input.txt'))
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab9.png)
 
 ### Выводы
 
@@ -244,7 +244,7 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 ```
 ### Результат.
 
-![Меню](
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/lab10.png)
 
 ### Выводы
 
@@ -274,8 +274,8 @@ print(f"Самое частое слово: '{most_common_word[0]}', колич�
 ```
 ### Результат.
 
-![Меню]()
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam1.1.png)
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam1.2.png)
 
 ### Выводы
 
@@ -295,35 +295,35 @@ print(f"Самое частое слово: '{most_common_word[0]}', колич�
 ### работоспособности программы.
 
 ```python
-def add_expense(filename):
+def add_rashodi(filename):
     with open(filename, 'a', encoding='utf-8') as file:
-        expense = input("Введите описание расхода и сумму: ")
-        file.write(expense + "\n")
+        rashodi = input("Введите описание расхода и сумму: ")
+        file.write(rashodi + "\n")
 
-def show_expenses(filename):
+def show_rashodis(filename):
     with open(filename, 'r', encoding='utf-8') as file:
-        expenses = file.readlines()
-        if expenses:
+        rashodis = file.readlines()
+        if rashodis:
             print("Ваши расходы:")
-            for expense in expenses:
-                print(expense.strip())
+            for rashodi in rashodis:
+                print(rashodi.strip())
         else:
             print("Расходов нет.")
 
-add_expense("expenses.txt")
-add_expense("expenses.txt")
-add_expense("expenses.txt")
-show_expenses("expenses.txt")
+add_rashodi("rashodi.txt")
+add_rashodi("rashodi.txt")
+add_rashodi("rashodi.txt")
+show_rashodis("rashodi.txt")
 ```
 ### Результат.
 
-![Меню]()
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam2.1.png)
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam2.2.png)
 
 ### Выводы
 
-1. `file.write(expense + "\n")` Записываем строку в файл
-2. `print(expense.strip())` Выводим каждую строку
+1. `file.write(rashodi + "\n")` Записываем строку в файл
+2. `print(rashodi.strip())` Выводим каждую строку
   
 ## Самостоятельная работа №3
 ### Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв
@@ -364,7 +364,7 @@ text_statistics("input.txt")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam3.png)
 
 ### Выводы
 
@@ -416,7 +416,7 @@ print("Результат:", censored_sentence)
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam4.png)
 
 ### Выводы
 
@@ -458,7 +458,7 @@ analyze_words("input.txt")
 
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_7/pic/sam5.png)
 
 ### Выводы
 
