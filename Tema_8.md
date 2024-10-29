@@ -32,7 +32,7 @@ my_car = Car("Toyota", "Corolla")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/lab1.png)
 
 ### Выводы
 
@@ -57,7 +57,7 @@ my_car.drive()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/lab2.png)
 
 ### Выводы
 
@@ -94,7 +94,7 @@ my_electric_car.charge()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/lab3.png)
 
 ### Выводы
 
@@ -125,7 +125,7 @@ my_car.drive()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/lab4.png)
 
 ### Выводы
 
@@ -170,7 +170,7 @@ print(my_circle.area())
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/lab5.png)
 
 ### Выводы
 
@@ -195,7 +195,7 @@ print(hero.Damage())
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/sam1.png)
 
 ### Выводы
 
@@ -228,7 +228,7 @@ print(hero.Golos())
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/sam2.png)
 
 ### Выводы
 
@@ -266,7 +266,7 @@ print(skopos.Golos())
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/sam3.png)
 
 ### Выводы
 
@@ -316,7 +316,7 @@ hero.set_damage(42)
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/sam4.png)
 
 ### Выводы
 
@@ -365,7 +365,7 @@ for hero in heroes:
 
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_8/pic/sam5.png)
 
 ### Выводы
 
