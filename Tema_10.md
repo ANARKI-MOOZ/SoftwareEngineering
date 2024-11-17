@@ -251,7 +251,7 @@ fibonacci()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_10/pic/sam1.png)
 
 ### Выводы
 
@@ -290,7 +290,7 @@ read_file("nepusto.txt")
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_10/pic/sam2.png)
 
 ### Выводы
 
@@ -324,7 +324,7 @@ add_two_to_input()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_10/pic/sam3.png)
 
 ### Выводы
 
@@ -374,7 +374,7 @@ increment_counter()
 ```
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_10/pic/sam4.png)
 
 ### Выводы
 
@@ -435,7 +435,7 @@ except ZeroError as e:
 
 ### Результат.
 
-![Меню]()
+![Меню](https://github.com/ANARKI-MOOZ/SoftwareEngineering/blob/Тема_10/pic/sam5.png)
 
 ### Выводы
 
